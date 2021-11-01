@@ -59,6 +59,6 @@ function isCnpValid(string $value): bool {
     if($jj > 52 || $jj <= 0){
         return false;
     }
-    return true;
+    return ($year > 1800 && $year < 2099 && $cnp[12] == $hashResult);
 }
 ?>
