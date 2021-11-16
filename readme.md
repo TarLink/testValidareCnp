@@ -1,4 +1,4 @@
-Nette Caching
+Label Generator
 =============
 
 Introduction
@@ -6,9 +6,6 @@ Introduction
 
 This module uses data stored in a sqlite database and displays a pdf label that contains the data,
 after validating it.
-
-
-[Support Me](https://github.com/sponsors/dg)
 --------------------------------------------
 
 Installation
@@ -26,7 +23,7 @@ Basic Usage
 
 There has to be an Sqlite file, with a table named 'addresses', with the structure
 
-```php
+```text
 firstname varchar(25)
 lastname varchar(25)
 company_name varchar(25)
@@ -64,3 +61,5 @@ Phone Number
 Email
 Unique Identifier
 ```
+
+The unique identifier is a hash of all the fields in the table's row
