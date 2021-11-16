@@ -1,10 +1,7 @@
 Label Generator
 =============
 
-Introduction
-============
-
-This module uses data stored in a sqlite database and displays a pdf label that contains the data,
+This module uses data stored in a sqlite database and displays in the browser window a pdf label that contains the data,
 after validating it.
 
 --------------------------------------------
@@ -51,7 +48,7 @@ $generator->run();
 It will load a random entry from the database. If the validation fails, a screen
 with the errors is displayed
 
-If the validation passes, it will display the label of the selected element, with
+If the validation passes, it will display the pdf label of the selected element, with
 the following fields:
 
 ```php
