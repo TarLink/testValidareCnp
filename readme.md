@@ -6,6 +6,7 @@ Introduction
 
 This module uses data stored in a sqlite database and displays a pdf label that contains the data,
 after validating it.
+
 --------------------------------------------
 
 Installation
